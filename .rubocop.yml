@@ -1,0 +1,23 @@
+Lambda:
+  Enabled: false
+
+Layout/ExtraSpacing:
+  Enabled: false
+
+Layout/SpaceAroundOperators:
+  Enabled: false
+
+Metrics/LineLength:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
+
+Style/AsciiComments:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/GuardClause:
+  Enabled: false
