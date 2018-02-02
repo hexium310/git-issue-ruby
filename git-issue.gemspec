@@ -1,16 +1,16 @@
 
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'git/issues/version'
+require 'git/issue/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'git-issues'
-  spec.version       = Git::Issues::VERSION
+  spec.name          = 'git-issue'
+  spec.version       = Git::Issue::VERSION
   spec.authors       = ['hexium310']
   spec.email         = ['hexium310@gmail.com']
 
-  spec.summary       = 'Fetch issues on GitHub.'
-  spec.description   = 'Fetch issues on GitHub.'
+  spec.summary       = 'Fetch issue on GitHub.'
+  spec.description   = 'Fetch issue on GitHub.'
   spec.homepage      = 'TODO: Put your gem\'s website or public repo URL here.'
   spec.license       = 'MIT'
 

@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    git-issues (0.1.0)
+    git-issue (0.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -34,7 +34,7 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 1.16)
   faraday
-  git-issues!
+  git-issue!
   minitest
   rake (~> 10.0)
   rubocop
