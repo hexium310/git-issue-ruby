@@ -9,7 +9,7 @@ module Git
   module Issue
     class CLI < Thor
       def initialize(*args)
-        regexp = %r{origina\tgit@github\.com:(.*)/(.*)\.git \(fetch\)}
+        regexp = %r{origin\tgit@github\.com:(.*)/(.*)\.git \(fetch\)}
         command = `git remote -v`
         matched = regexp.match(command)
         exit 0 if matched.nil?
