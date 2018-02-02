@@ -1,11 +1,11 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 
 # Specify your gem's dependencies in git-issues.gemspec
 gemspec
 
-gem "thor"
-gem "faraday"
-gem "rubocop"
-gem "minitest"
+gem 'faraday'
+gem 'minitest'
+gem 'rubocop'
+gem 'thor'

@@ -1,4 +1,4 @@
-require "git/issues/version"
+require 'git/issues/version'
 
 module Git
   module Issues

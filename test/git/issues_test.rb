@@ -1,6 +1,6 @@
-require "test_helper"
+require 'test_helper'
 
-class Git::IssuesTest < Minitest::Test
+class IssuesTest < Minitest::Test
   def test_that_it_has_a_version_number
     refute_nil ::Git::Issues::VERSION
   end
