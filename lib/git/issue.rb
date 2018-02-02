@@ -11,6 +11,8 @@ module Git
       def initialize(*args)
         regexp = %r{origina\tgit@github\.com:(.*)/(.*)\.git \(fetch\)}
         command = `git remote -v`
+        matched = regexp.match(command)
+        exit 0 if matched.nil?
         @owner = regexp.match(command)[1]
         @repo = regexp.match(command)[2]
         super
