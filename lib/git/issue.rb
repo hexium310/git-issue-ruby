@@ -1,7 +1,7 @@
-require 'git/issues/version'
+require 'git/issue/version'
 
 module Git
-  module Issues
+  module Issue
     # Your code goes here...
   end
 end
